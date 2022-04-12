@@ -1,0 +1,6 @@
+msg_template = '''Hello {name}
+Welcome to {website}, we are glad to have you here.'''
+
+def format_msg(my_name='Justin', my_website='cfe.sh'):
+    my_msg = msg_template.format(name=my_name, website=my_website)
+    return my_msg
